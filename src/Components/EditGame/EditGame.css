@@ -1,0 +1,49 @@
+.edit-game {
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.edit-game h1 {
+    margin-bottom: 16px;
+}
+
+.edit-game form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.edit-game label {
+    width: 30%;
+    font-weight: 600;
+}
+
+.edit-game input {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--gray-color);
+}
+
+.please-edit-game-msg {
+    margin-top: 16px;
+}
+
+.edit-game h1 {
+    text-align: center;
+}
+
+.edit-game h1 span {
+    display: block;
+}
+
+.edit-game .edit-selected-game-button {
+    color: white;
+    background-color: green;
+    margin: auto;
+    margin-top: 16px;
+}

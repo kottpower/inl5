@@ -1,0 +1,54 @@
+.games-container {
+    padding: 16px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.delete-game {
+    color: red;
+}
+
+.games-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.games-table thead {
+    width: 100%;
+}
+
+.games-table tbody {
+    width: 100%;
+}
+
+.games-table-body tr {
+    cursor: pointer;
+}
+
+.games-table thead tr th {
+    border: 1px solid var(--gray-color);
+ 
+    padding: 8px;
+}
+
+.games-table-body tr td {
+    border: 1px solid var(--gray-color);
+    padding: 8px;
+}
+
+.games-table-body tr td:last-child {
+    border: none;
+    font-size: 20px;
+}
+
+.games-table-body tr.selected td:not(:last-child) {
+    background-color: rgb(194, 223, 248) !important;
+}
+
+.games-table-body .game-title {
+    font-weight: 600;
+}
+
+
+
+
